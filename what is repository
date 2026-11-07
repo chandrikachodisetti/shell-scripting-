@@ -1,0 +1,51 @@
+A repository (repo) is a storage location where we store and manage our project files, source code, scripts, and configuration files.
+
+In simple words, a repository is like a folder that stores all our project files along with their version history.
+Example
+Suppose you are developing a project called Expense Tracker.
+
+You create a Git repository named expense-tracker.
+
+Inside the repository, you can store:
+
+expense-tracker/
+│
+├── server.js
+├── package.json
+├── README.md
+├── config/
+├── scripts/
+└── .git/
+
+Why do we need a repository?
+1. Code Storage: Stores all project source code in one place.
+2. Version Control: Tracks code changes over time.
+3. Collaboration: Multiple developers can work on the same project.
+4. Backup: Remote repositories provide an additional copy of the code.
+5. Tracking: Helps identify who made changes and when.
+6. Rollback: Allows us to return to an earlier version of the code.
+Types of repositories
+There are two main types:
+Type	             Explanation
+Local Repository	Repository available on our local computer.
+Remote Repository	Repository hosted on platforms like GitHub, GitLab, or Bitbucket.
+
+Important Git commands
+
+# Create a repository
+git init
+
+# Check repository status
+git status
+
+# Add files
+git add .
+
+# Commit changes
+git commit -m "Initial commit"
+
+# Connect remote repository
+git remote add origin <repository-url>
+
+# Push code to remote repository
+git push origin main
